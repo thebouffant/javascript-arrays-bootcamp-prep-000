@@ -38,6 +38,16 @@ var chocolateBars = [
     return pants.slice(1)
   }
   
+  function destructivelyRemoveElementFromEndOfArray(pomelo){
+    pomelo.pop()
+    return pomelo
+  }
+
+  function removeElementFromEndOfArray(grapes){
+    return grapes.slice(0, grapes.length - 1)
+  }
+  
+  
   
   
   
